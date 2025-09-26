@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alna V P | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Minimalistic Reset and Typography */
+        body {
+            font-family: 'Roboto', sans-serif; /* Clean, modern font */
+            background-color: #f7f7f7; /* Light gray background */
+            color: #333; /* Dark text for high contrast */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Container for Centering and Max Width */
+        .container {
+            max-width: 900px;
+            width: 90%;
+            margin: 40px auto;
+            padding: 20px 0;
+            flex-grow: 1; /* Allows main content to fill space */
+        }
+
+        /* Header Styling - Clean and Simple */
+        .header {
+            background-color: #ffffff; /* White header background */
+            color: #007BFF; /* A subtle, modern blue for the name */
+            padding: 40px 0;
+            text-align: center;
+            border-bottom: 2px solid #eaeaea; /* Light separation line */
+        }
+
+        .header h1 {
+            font-size: 2.8em;
+            font-weight: 300; /* Thin weight for modern look */
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        /* Section Styling */
+        .section {
+            background-color: #ffffff; /* White card background */
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px; /* Slightly rounded corners */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Very subtle shadow */
+        }
+
+        .section h2 {
+            font-size: 1.8em;
+            color: #555;
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            font-weight: 400;
+        }
+
+        /* List Styling for Key Details */
+        .details ul {
+            list-style: none; /* Remove bullets */
+            padding: 0;
+        }
+
+        .details li {
+            padding: 10px 0;
+            border-bottom: 1px dashed #eee;
+            font-size: 1.1em;
+        }
+
+        .details li:last-child {
+            border-bottom: none; /* No border on the last item */
+        }
+
+        .details strong {
+            color: #007BFF; /* Highlighted text for clarity */
+            font-weight: 700;
+            min-width: 150px; /* Aligns the data visually */
+            display: inline-block;
+        }
+
+        /* Separator for Visual Break */
+        .separator {
+            height: 1px;
+            background-color: #ddd;
+            width: 50px;
+            margin: 40px auto;
+        }
+
+        /* Footer Styling */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #999;
+            font-size: 0.9em;
+            border-top: 1px solid #eee;
+            margin-top: auto; /* Pushes footer to the bottom */
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Alna V P</h1>
+    </header>
+
+    <main class="container">
+        <section class="section about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm **Alna V P**, a B.Tech student from **Thrissur, Kerala**. 
+                I'm currently focused on my studies at **Vidya Academy of Science and Technology**. 
+                This portfolio is a simple introduction to my academic and personal background.
+            </p>
+        </section>
+
+        <div class="separator"></div>
+
+        <section class="section details">
+            <h2>Key Details</h2>
+            <ul>
+                <li>
+                    <strong>Name:</strong> Alna V P
+                </li>
+                <li>
+                    <strong>Hometown:</strong> Thrissur, Kerala
+                </li>
+                <li>
+                    <strong>Current Study:</strong> B.Tech (Bachelor of Technology)
+                </li>
+                <li>
+                    <strong>Institution:</strong> Vidya Academy of Science and Technology
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Alna V P. Modern Minimal Portfolio.</p>
+    </footer>
+</body>
+</html>
