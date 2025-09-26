@@ -6,11 +6,11 @@
     <title>Alna V P | Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-        /* General Minimalistic Reset and Typography */
+        /* General Vibrant Reset and Typography */
         body {
             font-family: 'Roboto', sans-serif; /* Clean, modern font */
-            background-color: #f7f7f7; /* Light gray background */
-            color: #333; /* Dark text for high contrast */
+            background: linear-gradient(135deg, #e0f7fa, #c5cae9); /* A more vibrant, cool-toned gradient */
+            color: #263238; /* A darker, professional gray for better contrast */
             margin: 0;
             padding: 0;
             line-height: 1.6;
@@ -25,71 +25,77 @@
             width: 90%;
             margin: 40px auto;
             padding: 20px 0;
-            flex-grow: 1; /* Allows main content to fill space */
+            flex-grow: 1;
         }
 
-        /* Header Styling - Clean and Simple */
+        /* Header Styling - Clean and Vibrant */
         .header {
-            background-color: #ffffff; /* White header background */
-            color: #007BFF; /* A subtle, modern blue for the name */
+            background-color: #ffffff;
+            color: #007BFF; /* A classic, vibrant blue */
             padding: 40px 0;
             text-align: center;
-            border-bottom: 2px solid #eaeaea; /* Light separation line */
+            border-bottom: 2px solid #e0e0e0;
         }
 
         .header h1 {
             font-size: 2.8em;
-            font-weight: 300; /* Thin weight for modern look */
+            font-weight: 300;
             margin: 0;
             letter-spacing: 2px;
         }
 
         /* Section Styling */
         .section {
-            background-color: #ffffff; /* White card background */
+            background-color: #ffffff;
             padding: 30px;
             margin-bottom: 30px;
-            border-radius: 8px; /* Slightly rounded corners */
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Very subtle shadow */
+            border-radius: 8px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* A slightly more pronounced shadow */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-8px); /* A more noticeable lift on hover */
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); /* A stronger shadow on hover */
         }
 
         .section h2 {
             font-size: 1.8em;
-            color: #555;
+            color: #4a5568; /* Updated heading color */
             margin-top: 0;
             margin-bottom: 20px;
             padding-bottom: 10px;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid #e0e0e0;
             font-weight: 400;
         }
 
         /* List Styling for Key Details */
         .details ul {
-            list-style: none; /* Remove bullets */
+            list-style: none;
             padding: 0;
         }
 
         .details li {
             padding: 10px 0;
-            border-bottom: 1px dashed #eee;
+            border-bottom: 1px dashed #e0e0e0;
             font-size: 1.1em;
         }
 
         .details li:last-child {
-            border-bottom: none; /* No border on the last item */
+            border-bottom: none;
         }
 
         .details strong {
-            color: #007BFF; /* Highlighted text for clarity */
+            color: #007BFF; /* Highlighted text in the new vibrant blue */
             font-weight: 700;
-            min-width: 150px; /* Aligns the data visually */
+            min-width: 150px;
             display: inline-block;
         }
 
         /* Separator for Visual Break */
         .separator {
             height: 1px;
-            background-color: #ddd;
+            background-color: #b0bec5;
             width: 50px;
             margin: 40px auto;
         }
@@ -98,10 +104,10 @@
         .footer {
             text-align: center;
             padding: 20px;
-            color: #999;
+            color: #78909c;
             font-size: 0.9em;
-            border-top: 1px solid #eee;
-            margin-top: auto; /* Pushes footer to the bottom */
+            border-top: 1px solid #e0e0e0;
+            margin-top: auto;
         }
 
         /* Responsive Adjustments */
